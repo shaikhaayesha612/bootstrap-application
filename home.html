@@ -1,0 +1,306 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="dist/css/bootstrap.css"/>
+		<link rel="stylesheet" href="icon/css/all.css"/>
+		<script src="dist/js/bootstrap.min.js"></script>	<!-- for functionality purpose-->
+		<style>
+			@media screen and (min-width:0px) and (max-width:1000px){
+			.ps-5{padding-left:0px !important; }}
+		</style>
+	</head>
+	
+	<body>
+		<section class="bg-light p-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+						<i class="fa fa-headset fa-lg"></i> +91-8888888888
+					</div>
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-end">
+						<a href="https://www.facebook.com" target="_blank" class="text-dark"><i class="fab fa-facebook fa-lg"></i></a>
+						<a href="https://www.twitter.com" target="_blank" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>
+						<a href="https://www.linkedin.com" target="_blank" class="text-dark"><i class="fab fa-linkedin fa-lg"></i></a>
+						<a href="https://www.instagram.com" target="_blank" class="text-dark"><i class="fab fa-instagram fa-lg"></i></a>						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- top navigation starts here -->
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Bootstrap Application</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+						aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="home.html">
+								<i class="fa fa-home"> </i> Home 
+							</a>
+					</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="login.html">
+								<i class="fa fa-lock"> </i> Login
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="signup.html">
+								<i class="fa fa-user-plus"> </i> Register
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="service.html">
+								<i class="fa fa-tools"> </i> Our Services
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#contact">
+								<i class="fa fa-headset"> </i> Contact Us
+							</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+			
+		<!-- top navigation ends here -->
+			
+		<!-- carousel i.e.banner starts here-->
+		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			
+			<div class="carousel-inner">
+			
+			<!--code for 1st banner button-->
+			
+			  <div class="carousel-item active">
+			  <img src="1.jpg" height="400" width="100%"/>		
+				<div class="container">
+				  <div class="carousel-caption text-start">
+					<h1>Example headline.</h1>
+					<p>Some representative placeholder content for the first slide of the carousel.</p>
+					<p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+				  </div>
+				</div>
+				</div>
+				
+			<!--code for 2nd banner button-->
+			
+				<div class="carousel-item">
+				<img src="2.jpg" height="400" width="100%"/>
+				<div class="container">
+				  <div class="carousel-caption">
+					<h1>Another example headline.</h1>
+					<p>Some representative placeholder content for the second slide of the carousel.</p>
+					<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+				  </div>
+				</div>
+				</div>
+			
+			<!--code for 3rd banner button-->
+		
+				<div class="carousel-item">
+				<img src="3.jpg" height="400" width="100%"/>
+					<div class="container">
+					  <div class="carousel-caption text-end">
+						<h1>One more for good measure.</h1>
+						<p>Some representative placeholder content for the third slide of this carousel.</p>
+						<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+					  </div>
+					</div>
+				</div>
+				</div>
+				
+				<!--code for previus button-->
+					<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+					</button>
+					
+				<!--code for previus button-->
+					<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+					</button>
+			</div>
+			
+		<!-- carousel i.e.banner starts here-->
+		
+		<section class="p-5 bg-primary text-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9">
+						<h1 class="text-center mb-4"> Firstenquiry Digital Media </h1>
+						<p>
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg 
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+						</p>
+						<p>
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg 
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							dfg dg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+						</p>
+					</div>	<!-- 9 end -->
+					
+					<div class="col-lg-3">
+						<div class="card border-0 shadow-lg">
+							<div class="card-header text-danger"> Quick Contact </div>
+							
+							<div class="card-body">
+								<div class="mb-3">
+									<label class="text-dark"> Full Name </label>
+									<input type="text" class="form-control"/>
+								</div>
+								<div class="mb-3">
+									<label class="text-dark"> Email Id </label>
+									<input type="email" class="form-control"/>
+								</div>
+							</div>
+							
+							<div class="card-footer text-center"> 
+								<button class="btn btn-danger"> Send Request </button>
+							</div>
+						</div>
+					</div>	<!-- 3 end -->
+					
+				</div>
+			</div>
+		</section>
+		
+		<section class="p-5 bg-warning">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 mb-4"> 
+						<img src="1.jpg" height="200" width="100%" class="rounded"> 
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 mb-4"> 
+						<img src="2.jpg" height="200" width="100%" class="rounded"> 
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 mb-4"> 
+						<img src="3.jpg" height="200" width="100%" class="rounded"> 
+					</div>
+					<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 mb-4"> 
+						<img src="4.jpg" height="200" width="100%" class="rounded"> 
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="p-5 bg-info text-white text-center">
+			<h1> Help Desk - 9999999999 </h1>
+		</section>
+		
+		<!-- modal starts here -->
+		<!-- Modal i.e. dialog -->
+		<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-md">
+			<div class="modal-content">
+			
+			  <div class="modal-header bg-info">
+				<h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Contact Us</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  
+			  <div class="modal-body">
+				<div class="mb3">
+					<label> Full Name </label>
+					<input type="text" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Mobile No </label>
+					<input type="number" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Email Id </label>
+					<input type="email" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Message </label>
+					<textarea class="form-control"></textarea>
+				</div>
+				
+			  </div>	<!-- modal body end-->
+			  
+			  <div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-primary">Send Message</button>
+				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- modal ends here -->
+		
+		<!-- Footer -->
+		<footer class="p-5 bg-dark text-white">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-lg-4">
+						<div class="text-white">
+							<h5 class="text-center"> About Us </h5>
+							<p>
+								dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+								dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+								dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+								dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+								dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg
+							</p>
+						</div>
+					</div>	<!-- 4 end -->
+					
+					<div class="col-lg-4">
+						<div class="text-white">
+							<h5 class="text-center"> Our Address</h5>
+							<address>
+								#123, ABC Park, Q-Square Road,
+								Bangalore-560037.
+							</address>
+							<p> Mobile No. 1234567890 </p>
+							<p> e-Mail- help@urwebsite.com </p>
+						</div>
+					</div>	<!-- 4 end -->
+					
+					<div class="col-lg-4">
+						<div class="text-white text-center">
+							<h5> Follow Us </h5>
+							<p>
+								<i class="fab fa-facebook fa-2x m-2"></i>
+								<i class="fab fa-twitter fa-2x m-2"></i>
+								<i class="fab fa-linkedin fa-2x m-2"></i>
+								<i class="fab fa-instagram fa-2x m-2"></i>
+							</p>
+							<p class="text-end">
+								<a href="#myCarousel" class="text-white">
+									<i class="fa fa-home fa-3x m-2"></i>
+								</a>
+							</p>
+						</div>
+					</div>	<!-- 4 end -->
+					
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>

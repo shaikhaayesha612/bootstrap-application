@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="dist/css/bootstrap.css"/>
+		<link rel="stylesheet" href="icon/css/all.css"/>
+		<script src="dist/js/bootstrap.min.js"></script>	<!-- for functionality purpose-->
+		<style>
+			@media screen and (min-width:0px) and (max-width:1000px){
+			.ps-5{padding-left:0px !important; }
+		</style>
+	</head>
+	
+	<body>
+		<section class="bg-light p-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+						<i class="fa fa-headset fa-lg"></i> +91-8884166608
+					</div>
+					<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-end">
+						<a href="https://www.facebook.com" target="_blank" class="text-dark"><i class="fab fa-facebook fa-lg"></i></a>
+						<a href="https://www.twitter.com" target="_blank" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>
+						<a href="https://www.linkedin.com" target="_blank" class="text-dark"><i class="fab fa-linkedin fa-lg"></i></a>
+						<a href="https://www.instagram.com" target="_blank" class="text-dark"><i class="fab fa-instagram fa-lg"></i></a>						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- top navigation starts here -->
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Bootstrap Application</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+						aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="home.html">
+								<i class="fa fa-home"> </i> Home 
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="login.html">
+								<i class="fa fa-lock"> </i> Login
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="signup.html">
+								<i class="fa fa-user-plus"> </i> Register
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="service.html">
+								<i class="fa fa-tools"> </i> Our Services
+							</a>
+						</li>
+						<li class="nav-item ps-5">
+							<a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#contact">
+								<i class="fa fa-headset"> </i> Contact Us
+							</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+			
+		<!-- top navigation ends here -->
+		
+		<!-- Login -->
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-4"></div>
+				
+				<div class="col-lg-4">
+					<br/><br/>
+					<div class="card border-0 shadow-lg">
+						<div class="card-header bg-primary text-white">
+							<i class="fa fa-lock"></i> Login
+						</div>
+						
+						<div class="card-body">
+							<div class="mb-4">
+								<label> Email Id </label>
+								<input type="email" class="form-control"/>
+							</div>
+							<div class="mb-4">
+								<label> Passwod </label>
+								<input type="password" class="form-control"/>
+							</div>
+						</div>
+						
+						<div class="card-footer text-center">
+							<button class="btn btn-danger"> Login </button>
+						</div>
+					</div>
+				</div>	<!-- 4 end -->
+				
+				<div class="col-lg-4"></div>
+			</div>
+		</div>
+		<!-- Login End -->
+		
+		
+		<!-- modal starts here -->
+		<!-- Modal -->
+		<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			
+			  <div class="modal-header bg-info">
+				<h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Contact Us</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  
+			  <div class="modal-body">
+				<div class="mb3">
+					<label> Full Name </label>
+					<input type="text" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Mobile No </label>
+					<input type="number" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Email Id </label>
+					<input type="email" class="form-control"/>
+				</div>
+				<div class="mb3">
+					<label> Message </label>
+					<textarea class="form-control"></textarea>
+				</div>
+				
+			  </div>	<!-- modal body end-->
+			  
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Send Message</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+		<!-- modal ends here -->	
+
+	</body>
+</html>
